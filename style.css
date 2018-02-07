@@ -1,8 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color:rgb(80, 80, 80);
+  margin: 0;
+}
+
+h1{
+  font-family: 'Meddon', cursive;
+}
+
 .banner {
   /*background-image: url("images/firework.jpeg");*/
   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("images/firework.jpeg") no-repeat center;
   background-size: cover;
-  height: 550px;
+  height: 100vh;
   margin: 0;
 }
 
@@ -21,44 +32,32 @@
 .intro {
   background-color: #FFC7C7;
   margin: 0;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color:rgb(80, 80, 80);
-}
-
-.intro h1{
-  font-family: 'Meddon', cursive;
 }
 
 .books{
   background-color: rgb(245, 245, 250);
   margin: 0;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   color:rgb(80, 80, 80);
 }
 
-.books table{
+table{
   margin: auto;
-  border-spacing: 15px
+  border-spacing: 20px
 }
 
 .books td{
   text-align: center;
 }
 
-
-.books h1 {
-  font-family: 'Meddon', cursive;
-}
-
-.books ul {
+ul {
   padding: 0;
 }
 
 .books a{
-  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color:rgb(80, 80, 80);
   font-size: 18px;
@@ -76,11 +75,11 @@
 }
 
 .social_media a {
-  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 18px;
 }
+
 
 .social_media li {
   list-style-type: none;

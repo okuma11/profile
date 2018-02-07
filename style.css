@@ -1,0 +1,93 @@
+.banner {
+  /*background-image: url("images/firework.jpeg");*/
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url("images/firework.jpeg") no-repeat center;
+  background-size: cover;
+  height: 550px;
+  margin: 0;
+}
+
+.banner h1{
+  font-family: 'Meddon', cursive;
+  font-size: 50pt;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 200px;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.intro {
+  background-color: #FFC7C7;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(80, 80, 80);
+}
+
+.intro h1{
+  font-family: 'Meddon', cursive;
+}
+
+.books{
+  background-color: rgb(245, 245, 250);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color:rgb(80, 80, 80);
+}
+
+.books table{
+  margin: auto;
+  border-spacing: 15px
+}
+
+.books td{
+  text-align: center;
+}
+
+
+.books h1 {
+  font-family: 'Meddon', cursive;
+}
+
+.books ul {
+  padding: 0;
+}
+
+.books a{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color:rgb(80, 80, 80);
+  font-size: 18px;
+}
+
+.books li {
+  list-style-type: none;
+}
+
+.social_media {
+  text-align: center;
+  background-color: 3D5A6C;
+  margin: 0;
+  padding: 30px;
+}
+
+.social_media a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.social_media li {
+  list-style-type: none;
+  display: inline;
+}
+
+.social_media a:hover {
+  color: rgb(200, 200, 200);
+}
+
